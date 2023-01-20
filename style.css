@@ -50,6 +50,14 @@ header{
     align-items: center;
     justify-content: center;
 }
+@media (max-width: 800px) {
+    .wrapper{
+        flex-direction: column;
+    }
+    .left{
+        display: none;
+    }
+}
 .vertical{
     display: flex;
     align-items: center;
